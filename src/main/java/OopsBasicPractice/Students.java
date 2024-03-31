@@ -14,6 +14,8 @@ public class Students{
     // STATIC VARIABLE
     public static int count = 0;
 
+
+    // Using static variable to keep count of number of objectes created
     public Students(){
         count++;
     }
@@ -61,7 +63,7 @@ public class Students{
         System.out.println(socialSmarks);
     }
 
-    public static void studentName(){
+    public static void testStatic(){
         System.out.println(count);
     }
 

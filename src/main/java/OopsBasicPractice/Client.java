@@ -11,7 +11,9 @@ public class Client {
         Students s1 = new Students(1 , "Rahul" , 12 , 56 , 65 , 78);
         System.out.println(s1.getSocialSmarks());
         //s1.display();
-        Students.studentName();
+
+        // *** Calling static method : it can be called using class name ***
+        Students.testStatic();
 
         s1.setResult();
 
@@ -19,6 +21,8 @@ public class Client {
         s1.display();
 
         Students s2 = new Students();
+
+        // *** Calling static variable : directly using class name
         System.out.println(Students.count);
 
         Students s3 = new Students();
