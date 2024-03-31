@@ -12,6 +12,7 @@ public class Client {
         System.out.println(s1.getSocialSmarks());
         //s1.display();
 
+
         // *** Calling static method : it can be called using class name ***
         Students.testStatic();
 

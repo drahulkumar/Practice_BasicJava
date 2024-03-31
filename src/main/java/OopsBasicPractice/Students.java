@@ -15,7 +15,7 @@ public class Students{
     public static int count = 0;
 
 
-    // Using static variable to keep count of number of objectes created
+    // Using static variable to keep count of number of objects created
     public Students(){
         count++;
     }
