@@ -5,9 +5,6 @@ public class Client {
 
     public static void main(String[] args){
 
-
-
-
         Students s1 = new Students(1 , "Rahul" , 12 , 56 , 65 , 78);
         System.out.println(s1.getSocialSmarks());
         //s1.display();
