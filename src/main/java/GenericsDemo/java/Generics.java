@@ -1,6 +1,6 @@
 package GenericsDemo.java;
 
-public class Generics<T>{
+public class Generics<T extends Number>{
     private T a;
     private T b;
 
@@ -26,13 +26,18 @@ public class Generics<T>{
         this.b = b;
     }
 
-    public void display(){
-        System.out.println(a + " " + b);
-    }
+//    public void display(){
+//        int x = a+b;
+//        System.out.println(x);
+//    }
 
 //    public <T extends Number> double add(T a , T b){
 //        return a + b;
 //    }
+
+    public T add(T a, T b) {
+        return (T) Double.valueOf(a.doubleValue() + b.doubleValue());
+    }
 }
 
 //
